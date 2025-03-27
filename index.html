@@ -8,7 +8,11 @@
 <body>
     <h1>Hoşgeldiniz!</h1>
     <p>Ben Zeynep, bu sitede size rastgele tatlı kedi fotoğrafları gösteriyorum 🐾</p>
-    <button onclick="getCat()">Yeni Kedi Getir</button>
-    <script src="script.js" defer></script>
+    <button id="newCat">Yeni Kedi Getir</button>
+    <script src="script.js"></script>
+    <script>
+      document.getElementById('newCat').addEventListener('click', getCat);
+    </script>
+
 </body>
 </html>
