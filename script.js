@@ -16,4 +16,4 @@ function getCat() {
     .catch(error => console.log('Hata:', error));
 }
 
-window.onload = getCat;
+document.addEventListener('DOMContentLoaded', getCat);
